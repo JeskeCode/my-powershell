@@ -79,3 +79,5 @@ foreach($Computer in $ComputerName) {
 	}
 
 }
+
+# Set-LocalAdminGroupMembers.ps1 -ObjectType Group -ObjectName "ADDomain\AllUsers" -ComputerName (Get-Content c:\servers.txt)
